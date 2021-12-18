@@ -1,0 +1,11 @@
+th{
+    border: 1px solid black;
+    padding: 5px 7px;
+}
+td{
+    border: 1px solid black;
+    padding: 5px 7px;
+}
+#özeletiket {
+    font-size: 50px;
+}
