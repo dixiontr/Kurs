@@ -1,0 +1,37 @@
+Hiyerarşi
+
+!id > !class > !tag > id > class > tag
+
+
+Css Ekleme Yöntemleri
+
+External (Dışardan)
+   - Önce bir .css uzantılı dosya oluşturulur.
+   - Sonra html sayfasında link etiketi oluşturulur
+   - link etiketinin href özelliği oluşturulan dosya adresi ile eşleştirilir.
+
+İnternal
+    - Html dosyasının içerisinde <style> tagi açılıp içine yazılıyor.
+İn-Line
+    - Etiketin içerisine style özelliği eklenir
+
+
+color --> Renk Değiştirme
+background-color --> Arkaplan rengi
+font-size --> Yazı tipi boyutu
+font-weight --> Yazı tipi kalınlığı
+border --> Sınır
+    ! Border bizden sırasıyla 3 değer ister. Kalınlık Tip ve renk
+margin --> Sınırların dışarısından etiketi iter
+padding --> Sınırların içerisinden etiketi iter
+
+Margin ve padding için 4 farklı atama şekli var
+    Tek değer verilirse 4 yana uygular
+    2 değer verilirse ilk değer yukarı ve aşağıya, ikinci değer sola ve sağa işler.
+    4 değer verilirse sırsasıyla yukarı, sağ,aşağı ve sol işler.
+
+    Tek satırda vermek yerine margin-right ya da margin-top gibi ayrıca da verilebilir.
+
+
+Width --> Genişlik
+Height --> Yüksekli

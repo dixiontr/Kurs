@@ -1,0 +1,24 @@
+p    {
+    color: red ;
+}
+
+.a {
+    color: green ;    
+}
+
+#b {
+    font-size: 35px;
+    font-weight: bold;
+    color: blue;    
+}
+
+#container{
+    border: 10px solid black;
+    margin: 250px 200px 150px 100px;
+
+}
+
+.box{   
+    background-color: red;
+}
+
