@@ -1,2 +1,2 @@
-# YediHilal Kurs
+# Kurs
  
