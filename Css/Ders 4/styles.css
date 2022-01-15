@@ -1,0 +1,53 @@
+.card {
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px gray;
+}
+
+.card-resim {
+    width: 175px;
+}
+
+.model-no {
+    font-size: 12px;
+    color: gray;
+}
+
+p {
+    margin: 0;
+}
+
+.urun-ismi {
+    font-size: 14px;
+}
+
+.fiyat {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0e0eb9;
+}
+
+.fiyat:hover {
+    background-color: red;
+    color: yellow;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    padding: 5px;
+
+
+}
+
+
+.kargo-bedava-yazisi {
+    border: 1px solid turquoise;
+    text-align: center;
+    color: #0e0eb9;
+}
+
+.deneme-resim {}
