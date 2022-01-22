@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.hamburger-butonu {
+    border: none;
+    background: none;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.youtube-logo {
+    width: 125px;
+}
+
+.youtube-logo-kapsayıcı {
+    display: inline-block;
+}
+
+.arama-kismi {
+    display: inline-block;
+    font-size: 0;
+}
+
+.arama-input {
+    width: 550px;
+    height: 30px;
+    margin-left: 200px;
+
+
+}
+
+.arama-label {
+    border: 1px solid gray;
+    padding: 7px 23px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mikrofon-kismi {
+    display: inline-block;
+
+    margin-left: 20px;
+}
+
+.mikrofon-butonu {
+    font-size: 22px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.kamera-kismi {
+    display: inline-block;
+
+    margin-left: 170px;
+}
+
+.kamera-butonu {
+    font-size: 22px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.kucuk-menu-kismi {
+    display: inline-block;
+
+    margin-left: 20px;
+}
+
+.kucuk-menu-butonu {
+    font-size: 22px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.alarm-kismi {
+    display: inline-block;
+
+    margin-left: 20px;
+}
+
+.alarm-butonu {
+    font-size: 22px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.profil-kismi {
+    display: inline-block;
+
+    margin-left: 20px;
+}
+
+.profil-butonu {
+    font-size: 22px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.yan-menu {
+    display: inline-block;
+    width: 15%;
+    height: 750px;
+
+}
+
+.yan-buton-kapsayıcı {}
+
+.yan-buton {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: start;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.yan-buton:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+
+.yan-buton-yazi {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.yan-buton-ikonu {}
+
+.abonelik-baslik {
+    margin-top: 10px;
+    margin-left: 10px;
+}
