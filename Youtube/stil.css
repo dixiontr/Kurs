@@ -5,6 +5,10 @@
 
 }
 
+.ana-kisim {
+    margin-top: 20px;
+}
+
 
 .hamburger-butonu {
     border: none;
@@ -13,6 +17,14 @@
     cursor: pointer;
     padding: 10px;
     padding-left: 20px;
+}
+
+.etiketler {
+    border-top: 1px solid rgb(184, 184, 184);
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding: 10px;
+    position: sticky;
+    top: 0;
 }
 
 .youtube-logo {
@@ -112,7 +124,6 @@
     display: inline-block;
     width: 15%;
     height: 750px;
-
 }
 
 .yan-buton-kapsayıcı {}
@@ -144,4 +155,108 @@
 .abonelik-baslik {
     margin-top: 10px;
     margin-left: 10px;
+}
+
+.sag-taraf {
+    display: inline-block;
+    width: 84%;
+    height: 750px;
+    position: absolute;
+}
+
+.etiket-butonu {
+    padding: 8px 15px;
+    border-radius: 50999999px;
+    border: none;
+    cursor: pointer;
+}
+
+.etiket-butonu:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+.etiket {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.etiket-butonu.active {
+    background-color: black;
+    color: white;
+}
+
+.videolar {
+    margin-top: 25px;
+}
+
+.video-resmi {
+    width: 275px;
+
+}
+
+.alt-kısım {
+    position: relative;
+}
+
+
+.avatar-resmi-kapsayıcı {
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+.avatar-resmi-kapsayıcı i {}
+
+.video-sag-taraf {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.video-basligi {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 13px;
+}
+
+.kanal {
+    font-size: 14px;
+    color: gray;
+}
+
+.görüntülenme-ve-saat {
+    font-size: 14px;
+    color: gray;
+}
+
+.video-kartı {
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.whatsapp-buton {
+    position: fixed;
+    font-size: 50px;
+    right: 30px;
+    bottom: 30px;
+}
+
+.süre-göstergesi {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    display: inline-block;
+    font-size: 10px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.video-resmi-kapsayıcı {
+    position: relative;
+    display: inline-block;
 }
