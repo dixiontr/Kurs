@@ -1,0 +1,29 @@
+.ornek-flexbox-red {
+    width: 1000px;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexbox-icerik-1-blue {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.flexbox-icerik-2-green {
+    width: 250px;
+    height: 100px;
+    background-color: green;
+}
+
+.flexbox-icerik-3-yellow {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+}
+
+
+
+// Display
+block inline-block none flex

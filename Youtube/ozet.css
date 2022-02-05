@@ -1,0 +1,6 @@
+FLEXBOX display: flex;
+
+justify-content -->Yatayda Hizalama align-items -->Dikeyde Hizalama // Hizalama Türleri
+
+start -->Sola (Başlangıç Noktasına) Getirme end -->Sağa (Bitiş Noktasına) Getirme center -->Ortaya Getirme space-around -->Boşlukları her ortalarda eşit,
+başlangıçta ve sonra biraz daha az şekilde dağıtır space-between -->Başlangıç ve sonda boşluk bırakmak. Bütün boşluğu ortaya dağıtır. space-evenly -->Boşlukları her yere eşit dağıtır

@@ -9,6 +9,25 @@
     margin-top: 20px;
 }
 
+.ilk-item {
+    display: flex;
+    align-items: center;
+}
+
+.ikinci-item {
+    display: flex;
+    align-items: center;
+}
+
+.yukari-kisim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 10px;
+
+}
+
 
 .hamburger-butonu {
     border: none;
@@ -42,17 +61,18 @@
 
 .arama-input {
     width: 550px;
-    height: 30px;
-    margin-left: 200px;
+    height: 38px;
 
 
 }
 
 .arama-label {
     border: 1px solid gray;
-    padding: 7px 23px;
-    font-size: 15px;
+    padding: 8px 23px;
+    font-size: 18px;
     cursor: pointer;
+    position: relative;
+    top: 2px;
 }
 
 .mikrofon-kismi {
@@ -71,7 +91,6 @@
 .kamera-kismi {
     display: inline-block;
 
-    margin-left: 170px;
 }
 
 .kamera-butonu {
@@ -111,6 +130,7 @@
     display: inline-block;
 
     margin-left: 20px;
+    margin-right: 50px;
 }
 
 .profil-butonu {
@@ -187,6 +207,9 @@
 
 .videolar {
     margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
 }
 
 .video-resmi {
