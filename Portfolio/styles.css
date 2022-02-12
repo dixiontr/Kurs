@@ -1,0 +1,60 @@
+body {
+    background-color: red;
+}
+
+.buttons-list {
+    list-style: none;
+}
+
+.buttons-list li {
+    display: inline-block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.buttons-list li button {
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+
+.buttons-list li button:hover {
+    background-color: #f27a1a;
+    color: white;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+#active button {
+    background-color: #f27a1a;
+    color: white;
+    border-bottom: 5px solid black;
+}
+
+.acilir-menu-container {
+    position: relative;
+}
+
+.acilir-menu {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    display: none;
+    padding: 10px;
+    box-shadow: 0 0 3px 5px gray;
+}
+
+.acilir-menu-container:hover .acilir-menu {
+    display: block;
+}
