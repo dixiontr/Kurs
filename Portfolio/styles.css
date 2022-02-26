@@ -1,10 +1,18 @@
-body {
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .buttons-list {
     list-style: none;
 }
+
 
 .buttons-list li {
     display: inline-block;
@@ -43,18 +51,33 @@ header {
 }
 
 .acilir-menu-container {
-    position: relative;
-}
-
-.acilir-menu {
     position: absolute;
-    top: 100%;
-    background-color: white;
-    display: none;
-    padding: 10px;
-    box-shadow: 0 0 3px 5px gray;
+    max-height: 0;
+    overflow: hidden;
+
 }
 
-.acilir-menu-container:hover .acilir-menu {
-    display: block;
+.acilir-menu-butonu {
+    padding: 10px 40px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    transition: all .5s;
+}
+
+.acilir-menu-butonu i {
+    margin-right: 10px;
+}
+
+.acilir-menu-hoverı:hover .acilir-menu-container {
+    max-height: 100%;
+    border: 1px solid black;
+    transition: all 1.5s;
+}
+
+.acilir-menu-butonu:hover {
+    background-color: gray;
+}
+
+.acilir-menu-butonu:hover a {
+    color: white !important;
 }
