@@ -9,6 +9,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': "#f27a1a",
+                        'buton-rengi': '#0A95FF'
+                    },
+                    fontSize: {
+                        'devasa': '500px',
+                        'kucucuk': '5px',
+                    },
+                    gridTemplateColumns: {
+                        '16': 'repeat(16, minmax(0, 1fr))',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .youtube-grid {
+                @apply grid grid-cols-4 gap-x-4 gap-y-5 p-5
+            }
+            .youtube-card-grid {
+                @apply grid grid-cols-10 mt-3
+            }
+            .youtube-card-icon {
+                @apply text-2xl group-hover:text-red-500
+            }
+            .youtube-card-title {
+                @apply text-lg font-bold group-hover:text-blue-700 rounded-full
+            }
+            .youtube-card-small-text {
+                @apply text-sm text-gray-500 cursor-pointer font-light
+            }
+        }
+    </style>
     <title>Document</title>
 </head>
 
@@ -138,25 +176,25 @@
         </div>
     </div> -->
 
-    <div class="grid grid-cols-4 gap-x-4 gap-y-5 p-5">
+    <div class="youtube-grid">
         <div class="col-span-1 group">
             <div>
                 <div>
                     <img src="https://i.ytimg.com/vi/QPcZXJ5CxSs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0VmEUefDcr2AK7YV2qAfPIIYIEQ"
                         alt="">
                 </div>
-                <div class="grid grid-cols-10 mt-3">
+                <div class="youtube-card-grid">
                     <div class="col-span-1">
-                        <i class="fa-solid fa-circle-user text-2xl group-hover:text-red-500"></i>
+                        <i class="fa-solid fa-circle-user youtube-card-icon"></i>
                     </div>
                     <div class="col-span-9">
-                        <p class="text-lg font-bold group-hover:text-blue-700  rounded-full  ">
+                        <p class="youtube-card-title text-primary">
                             Kim
                             Savaşçı
                             Olacak</p>
-                        <p class="text-sm text-gray-500 group-hover:underline cursor-pointer font-light">Taha Baba</p>
-                        <p class="text-sm text-gray-500 group-hover:italic font-light">1M görüntülenme <i
-                                class="fa-solid fa-circle"></i>
+                        <p class="youtube-card-small-text">Taha Baba</p>
+                        <p class="youtube-card-small-text">1M görüntülenme
+                            <i class="fa-solid fa-circle"></i>
                             2M beğenme
                         </p>
                     </div>
@@ -164,6 +202,8 @@
             </div>
         </div>
     </div>
+
+
 </body>
 
 </html>
